@@ -12,13 +12,13 @@ var inputUser = document.getElementById("inputUser");
 var listContainer = document.getElementById("listContainer");
 //addInitials();
 
-startTimer();
 
 scoreContainer.innerHTML = score;
 
 console.dir(scoreContainer)
 
 startQuizButton.addEventListener("click",function() { 
+    startTimer();
     startQuizDiv.classList.add("hidden")
     Question1.classList.remove("hidden")
 })
