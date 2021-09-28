@@ -10,7 +10,7 @@ var inputContainer = document.getElementById("inputContainer");
 var inputButton = document.getElementById("inputButton");
 var inputUser = document.getElementById("inputUser");
 var listContainer = document.getElementById("listContainer");
-//addInitials();
+
 
 
 scoreContainer.innerHTML = score;
