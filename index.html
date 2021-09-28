@@ -1,60 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coding Quiz</title>
-    <link rel="stylesheet" href="style.css"> 
-     
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div id="startQuizDiv">
-    <p id="startQuiz"> Hello Start your quiz </p>
-    <button id="startQuizButton"> Start </button> 
+      <p id="startQuiz">Hello Start your quiz</p>
+      <button id="startQuizButton">Start</button>
     </div>
 
     <div id="Question1" class="hidden">
-    <p class="Question"> Commonly used data types DO NOT include </p>
-    <button class="questionButton" id="Answer11"> Strings </button>
-    <button class="questionButton" id="Answer12"> Booleans </button>
-    <button class="questionButton" id="Answer13"> Alerts </button>
-    <button class="questionButton" id="Answer14"> Numbers </button>
+      <p class="Question">Commonly used data types DO NOT include</p>
+      <button class="questionButton" id="Answer11">Strings</button>
+      <button class="questionButton" id="Answer12">Booleans</button>
+      <button class="questionButton" id="Answer13">Alerts</button>
+      <button class="questionButton" id="Answer14">Numbers</button>
     </div>
 
     <div id="Question2" class="hidden">
-    <p class="Question"> The condition in an if/ else statement is enclosed within </p>
-    <button class="questionButton" id="Answer21"> Quotes </button>
-    <button class="questionButton" id="Answer22"> Curly Brackets </button>
-    <button class="questionButton" id="Answer23"> Parentheses </button>
-    <button class="questionButton" id="Answer24"> Square Brackets </button>
+      <p class="Question">
+        The condition in an if/ else statement is enclosed within
+      </p>
+      <button class="questionButton" id="Answer21">Quotes</button>
+      <button class="questionButton" id="Answer22">Curly Brackets</button>
+      <button class="questionButton" id="Answer23">Parentheses</button>
+      <button class="questionButton" id="Answer24">Square Brackets</button>
     </div>
 
     <div id="Question3" class="hidden">
-    <p class="Question"> Arrays in JavaScript can be used to store  _______. </p>
-    <button class="questionButton" id="Answer31"> number and strings </button>
-    <button class="questionButton" id="Answer32"> other arrays </button>
-    <button class="questionButton" id="Answer33"> booleans </button>
-    <button class="questionButton" id="Answer34"> all of the above </button>
+      <p class="Question">Arrays in JavaScript can be used to store _______.</p>
+      <button class="questionButton" id="Answer31">number and strings</button>
+      <button class="questionButton" id="Answer32">other arrays</button>
+      <button class="questionButton" id="Answer33">booleans</button>
+      <button class="questionButton" id="Answer34">all of the above</button>
     </div>
 
-<div id="Question4" class="hidden">
-    <p class="Question"> A very useful tool used during development and debugging for printing content to the debugger is: </p>
-    <button class="questionButton" id="Answer41"> JavaScript </button>
-    <button class="questionButton" id="Answer42"> terminal / bash </button>
-    <button class="questionButton" id="Answer43"> for loops </button>
-    <button class="questionButton" id="Answer44"> console.log </button>
+    <div id="Question4" class="hidden">
+      <p class="Question">
+        A very useful tool used during development and debugging for printing
+        content to the debugger is:
+      </p>
+      <button class="questionButton" id="Answer41">JavaScript</button>
+      <button class="questionButton" id="Answer42">terminal / bash</button>
+      <button class="questionButton" id="Answer43">for loops</button>
+      <button class="questionButton" id="Answer44">console.log</button>
     </div>
 
+    <!-- Display Score -->
+    <div id= "score" class="hidden"> scoreContainer.innerHTML = "your score is " + score
+      </div> 
+
+<!-- Display Timer -->
+    <div id="timer">
+      <p > </p>
+    </div>
+    
+<!-- input initials --> 
+<div id="inputContainer" class="hidden"> 
+  <input id="inputUser" type = "text">
+  <button id="inputButton"> click me </button>
+
+  <ul id="listContainer"> 
+
+  </ul>
+</div>
 
 
 
-
-
-
-
-
-<script src="script.js"></script>
-
-</body>
+      <script src="script.js"></script>  
+  </body>
 </html>
