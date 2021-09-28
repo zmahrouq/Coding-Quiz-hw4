@@ -1,0 +1,18 @@
+# <Zaids Coding Quiz!>
+
+
+## Description
+
+-I wanted to make a short coding quiz to test a new coders knowledge on fundamentals topics of coding'
+-The user will have 60 seconds to answer 5 questions
+-For each question that is correct the user will attain 50 points
+-For each question wrong the user loses 5 seconds
+-In the end the user may save their name with their score
+
+
+## Installation
+Click the URL provided
+
+## Usage
+Click start on the webpage and click the buttons for what you believe will be the answer of your questions
+
